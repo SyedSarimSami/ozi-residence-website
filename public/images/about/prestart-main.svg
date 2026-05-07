@@ -1,0 +1,21 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ece4d8"/>
+      <stop offset="1" stop-color="#bda58d"/>
+    </linearGradient>
+    <linearGradient id="line" x1="240" y1="260" x2="1380" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#8C775F" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect x="108" y="108" width="1384" height="784" stroke="rgba(31,31,31,0.18)" stroke-width="1.5"/>
+  <path d="M170 748L444 522L687 620L983 388L1221 516L1430 326" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M238 292H1364" stroke="rgba(31,31,31,0.16)" stroke-width="1.5"/>
+  <path d="M238 682H1364" stroke="rgba(31,31,31,0.1)" stroke-width="1.5"/>
+  <circle cx="984" cy="388" r="10" fill="rgba(31,31,31,0.26)"/>
+  <circle cx="687" cy="620" r="10" fill="rgba(31,31,31,0.26)"/>
+  <rect x="256" y="792" width="1088" height="2" fill="rgba(31,31,31,0.18)"/>
+  <text x="258" y="760" fill="#4F4336" font-size="40" letter-spacing="0.16em" font-family="Inter, Arial, sans-serif">PRE-START SELECTIONS</text>
+</svg>
