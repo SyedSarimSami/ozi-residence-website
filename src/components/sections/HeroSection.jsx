@@ -3,12 +3,6 @@ import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
     <section className="hero-section" aria-labelledby="hero-heading">
-      <div className="hero-image-layer">
-        <img
-          src="/images/hero/Hero_House.png"
-          alt="Modern single-storey Perth home at early evening"
-        />
-      </div>
       <div className="hero-gradient-overlay" />
 
       <div className="container hero-content">
