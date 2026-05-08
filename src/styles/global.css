@@ -155,18 +155,26 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
-  min-height: 98px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  min-height: 88px;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 
 .header-logo {
   flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
 }
 
 .header-logo img {
-  width: 214px;
-  height: auto;
+  width: auto;
+  height: 70px;
+  max-height: 100%;
+  max-width: none;
+  object-fit: contain;
 }
 
 .desktop-nav {
@@ -270,6 +278,36 @@ img {
 
 .mobile-nav-cta {
   margin-top: 10px;
+}
+
+@media (max-width: 1440px) and (min-width: 961px) {
+  .header-inner {
+    min-height: 72px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .header-logo img {
+    height: 60px;
+    max-width: none;
+  }
+
+  .desktop-nav {
+    gap: 30px;
+  }
+
+  .nav-link {
+    padding: 8px 0;
+    font-size: 0.76rem;
+    letter-spacing: 0.15em;
+  }
+
+  .desktop-cta {
+    min-height: 46px;
+    padding: 0 24px;
+    font-size: 0.74rem;
+    letter-spacing: 0.15em;
+  }
 }
 
 .hero-section {
@@ -2463,7 +2501,8 @@ img {
   }
 
   .header-logo img {
-    width: 164px;
+    height: 48px;
+    max-width: 190px;
   }
 
   .desktop-nav,
@@ -2621,7 +2660,8 @@ img {
   }
 
   .header-logo img {
-    width: 146px;
+    height: 42px;
+    max-width: 168px;
   }
 
   .mobile-nav {

@@ -19,7 +19,7 @@ const SiteHeader = ({ overlay = false }) => {
     <header className={headerClass}>
       <div className="header-inner container">
         <Link className="header-logo" to="/" aria-label="OZI Residence Home">
-          <img src="/images/logos/primary-dark-cropped.png" alt="OZI Residence" />
+          <img src="/images/logos/primary-dark-tight.png" alt="OZI Residence" />
         </Link>
 
         <nav className="desktop-nav" aria-label="Primary">
